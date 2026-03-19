@@ -1,40 +1,17 @@
-# 🌐 My Web Dev Journey
+## 📅 Day 01 - HTML Basics
 
-Hi, I’ve started learning web development and this repo will track my daily progress.
+Today I practiced basic HTML concepts by creating a form and a table.
 
----
+For the form:
+- used input fields, radio buttons, checkboxes, textarea
+- understood how form structure works
 
-## 📅 Day 01 - HTML Form
+For the table:
+- learned table, tr, th, td, caption
+- practiced creating rows and columns
 
-Today I created my first basic HTML form.
+At first, I was confused about table structure and radio vs checkbox, but after trying it myself it became clearer.
 
-Things I used:
-- input fields
-- radio buttons
-- checkboxes
-- textarea
-- submit button
-
-At first I was confused about the difference between radio and checkbox, but after trying it myself it became clear.
-
-📁 Code: day01/form.html
-
----
-
-## 🧠 What I understood
-
-- how forms are structured using <form>
-- how input types work
-- why same "name" is used in radio buttons
-
----
-
-## 🚀 Next
-
-Planning to learn:
-- more HTML tags
-- start CSS
-
----
-
-This is just the beginning 🙂
+📁 Code:
+- day01-html-basics/form.html
+- day01-html-basics/table.html
