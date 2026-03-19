@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form - personal details</title>
+</head>
+
+<body>
+    <h2>Fill your details</h2>
+    <form action="script.js">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        </div>
+        <div>
+            <label for="pin">Pincode:</label>
+            <input type="text" id="pin" name="pin">
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="female">Female
+        </div>
+        <div>
+            <label>Branch:</label>
+            <select name="branch">
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="civil">CIVIL</option>
+                <option value="mechanical">MECHANICAL</option>
+            </select>
+        </div>
+        <div>
+            <label>Hobbies:</label>
+            <input type="checkbox" name="Hobby" value="reading">Reading
+            <input type="checkbox" name="Hobby" value="sports">Sports
+            <input type="checkbox" name="Hobby" value="music">Music
+        </div>
+        <div>
+            <label for="about">Tell about your project:</label>
+            <textarea id="about" name="about" rows="4" cols="30">enter here...</textarea>
+        </div>
+        <div>
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
