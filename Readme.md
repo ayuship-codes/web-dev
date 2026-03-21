@@ -27,3 +27,13 @@ Today I practiced working with media in HTML.
 Built a simple media player page with multiple audio and video files.
 
 Still improving structure and will work on styling next using CSS.
+
+## Day 3 - CSS Basics
+
+Learned basic CSS concepts and applied styling to HTML page.
+
+- Worked with selectors (element, class, id)
+- Added colors, fonts, and spacing
+- Practiced box model (margin, padding, border)
+
+Next: Learn Flexbox and improve layout
