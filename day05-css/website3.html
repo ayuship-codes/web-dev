@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website - CSS variable</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @media only screen and (max-width:455px) {
+            ul{
+             flex-direction:column;
+            }
+        }
+
+        body{
+            margin:10px;
+            padding:5px;
+        }
+
+        :root {
+            --color: yellow;
+            --seccolor: orange;
+            --defpad: 30px;
+            --defop: 0.2;
+        }
+
+        ul {
+            display: flex;
+            background-color: var(--seccolor);
+        }
+
+        h2{
+            margin-top: 20px;
+            color:rgb(47, 47, 138)
+        }
+        
+        p{
+            padding-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        li {            
+            list-style:none;
+            padding: 10px 20px;
+            color: var(--color);
+        }
+
+        li:hover{
+            color:aliceblue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <main>
+        <h2>Reduce, reuse, repair and recycle</h2>
+        <p>
+            Electronics, clothes, plastics and other items we buy cause carbon emissions at each point in production,
+            from the extraction of raw materials to manufacturing and transporting goods to market. To protect the
+            climate, buy fewer things, shop second-hand, and repair what you can. Plastics alone generated 1.8 billion
+            metric tonnes of greenhouse gas emissions in 2019 – 3.4 per cent of the global total. Less than 10 per cent
+            is recycled, and once plastic is discarded, it can linger for hundreds of years. Buying fewer new clothes –
+            and other consumer goods can also reduce your carbon footprint. Every kilogram of textiles produced
+            generates about 17 kilograms of CO2e.
+        </p>
+    </main>
+</body>
+
+</html>

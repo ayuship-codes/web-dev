@@ -37,3 +37,16 @@ Learned basic CSS concepts and applied styling to HTML page.
 - Practiced box model (margin, padding, border)
 
 Next: Learn Flexbox and improve layout
+
+## Day 4 - CSS Practice
+
+Created a card UI using HTML & CSS
+
+Learned
+- Basic layout design
+- Margin, padding, border-radius
+- Centering elements
+
+Next
+- Practice flexbox
+- Improve UI design
