@@ -47,6 +47,24 @@ Learned
 - Margin, padding, border-radius
 - Centering elements
 
+Responsive Navbar Website
+
+A simple webpage built using HTML and CSS.
+
+Features
+
+* Responsive navbar using Flexbox
+* Media queries for mobile view
+* Basic layout and styling
+
+Learning
+
+* Flexbox basics
+* Media queries
+* CSS variables
+
 Next
 - Practice flexbox
 - Improve UI design
+
+
