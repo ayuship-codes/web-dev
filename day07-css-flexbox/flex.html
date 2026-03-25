@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: antiquewhite;
+            display:flex;
+        }
+        nav img{
+            
+            align-self: left;
+        }
+        nav ul{
+            display:flex;
+            justify-content: flex-end;
+        }
+        li{
+            list-style: none;
+            padding:10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="UE_Site-Logo-1.png">
+            <ul>
+                <li>Products</li>
+                <li>Pricing</li>
+                <li>Resources</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

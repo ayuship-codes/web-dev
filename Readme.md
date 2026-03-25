@@ -49,6 +49,8 @@ Learned
 
 Responsive Navbar Website
 
+## Day 5 - CSS
+
 A simple webpage built using HTML and CSS.
 
 Features
@@ -56,6 +58,8 @@ Features
 * Responsive navbar using Flexbox
 * Media queries for mobile view
 * Basic layout and styling
+
+## Day 6 - CSS
 
 Learning
 
@@ -67,4 +71,12 @@ Next
 - Practice flexbox
 - Improve UI design
 
+## Day 6 - CSS flexbox
 
+Learned:
+Today I practiced working with flexbox in CSS.
+Implemented some flexbox features on a navigation bar.
+
+next:
+- improve layout
+- learn grid
