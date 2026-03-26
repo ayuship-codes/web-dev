@@ -34,6 +34,30 @@
             align-items: center;
             cursor: pointer;
         }
+        @media only screen and (min-width: 768px) {
+            .boxes {                
+               grid-template-columns: 1fr; 
+                             
+            }
+        }
+        .boxes{
+            margin:50px;
+            background-color: bisque;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+            grid-template-columns: 1fr 1fr 1fr;
+            gap:30px;
+            overflow: hidden hidden;
+            /*display:flex;
+            flex-wrap: wrap;
+            gap:10px;*/
+        }
+        .boxes div{            
+            background-color:rgb(118, 118, 176);                   
+            height:50px;
+        }
     </style>
 </head>
 
@@ -65,6 +89,14 @@
             </div>
         </nav>
     </header>
+    <main class="boxes">
+        <div>box1</div>
+        <div>box2</div>
+        <div>box3</div>
+        <div>box4</div>
+        <div>box5</div>
+        <div>box6</div>
+    </main>
 </body>
 
 </html>
