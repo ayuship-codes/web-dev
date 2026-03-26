@@ -71,7 +71,7 @@ Next
 - Practice flexbox
 - Improve UI design
 
-## Day 6 - CSS flexbox
+## Day 7 - CSS flexbox
 
 Learned:
 Today I practiced working with flexbox in CSS.
@@ -80,3 +80,18 @@ Implemented some flexbox features on a navigation bar.
 next:
 - improve layout
 - learn grid
+
+## Day 8 - CSS grid
+
+Today I learned the basics of CSS Grid and improved my previous layout.
+
+What I practiced:
+- Creating grid layouts using display: grid
+- Using grid-template-columns for column structure
+- Adding spacing with gap
+- Making layouts responsive using media queries
+- Converting multi-column layout into single column for smaller screens
+
+Update:
+- Enhanced yesterday’s project by adding grid layout
+- Improved responsiveness for mobile view
