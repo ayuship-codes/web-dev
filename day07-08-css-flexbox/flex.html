@@ -35,13 +35,9 @@
             cursor: pointer;
         }
         
-        .second{
-            
-            
-        }
+        
         .grid{
-            margin:30px;
-            background-color: bisque;
+            margin:30px;            
             display: grid;        
             grid-template-columns: repeat(3, 1fr);
             gap:20px;
@@ -53,12 +49,42 @@
             .grid {                
                grid-template-columns: 1fr;                                            
             }
+            .right ul li{
+                font-size: 10px;
+            }
+            .logo img{
+                width:80px;
+            }
+            svg{
+                width:10px;
+            }
         }
         .item{            
-            background-color:rgb(118, 118, 176);                   
-            height:50px;
-            width:100%;
+            background-color:rgb(250, 244, 222);  
+            border-radius: 20px;
+            height:150px;
+            width:300px;
+            align-content: center;
+            text-align: center;          
+            gap: 10px; 
         }
+        .item a{
+            background-color: rgb(251, 213, 44);
+            border-radius: 5px;
+            border:none;
+            padding: 4px 10px;  
+            font-size: 15px; 
+            margin-top: 5px;  
+            text-decoration: none;
+            color: black;
+            display: inline-block;       
+        }
+        .item div:nth-child(1){
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        
     </style>
 </head>
 
@@ -98,12 +124,37 @@
         </section>
         <section class="second">
             <div class="grid">
-                <div class="item">box1</div>
-                <div class="item">box2</div>
-                <div class="item">box3</div>
-                <div class="item">box4</div>
-                <div class="item">box5</div>
-                <div class="item">box6</div>
+                <div class="item">
+                    <div>English</div>
+                    <div>Includes all languages</div>
+                    <a href="" download class="button">Download 64-bit</a>
+                </div>
+                <div class="item">
+                    <div>Deusch</div>
+                    <div>German</div>
+                    <a href="" download class="button">Download 64-bit</a>
+                </div>
+                <div class="item">
+                    <div>Italiano</div>
+                    <div>Italian</div>
+                    <a href="" download class="button">Download 64-bit</a>
+                </div>
+                <div class="item">
+                    <div>Espanol</div>
+                    <div>Spanish</div>
+                    <a href="" download class="button">Download 64-bit</a>
+                </div>
+                <div class="item">
+                    <div>Francais</div>
+                    <div>French</div>
+                    <a href="" download class="button">Download 64-bit</a>
+                </div>
+                <div class="item">
+                    <div>Portugues brasileiro</div>
+                    <div>Brazillian Portuguese</div>
+                    <a href="" download class="button">Download 64-bit</a>
+                </div>
+                
             </div>
         </section>
     </main>
