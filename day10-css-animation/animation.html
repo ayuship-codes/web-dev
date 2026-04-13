@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container{
+            background-color: rgb(113, 113, 199);
+            width:90vw;
+            height:80vh;
+        }
+        .ball{
+            background-color:brown;
+            width:50px;
+            height:50px;
+            border-radius:60px; 
+            position:relative;
+            animation-name:ball;
+            animation-duration:1s;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); 
+            animation-delay: 0s;
+            animation-iteration-count: 2; 
+
+        }
+        @keyframes ball{
+            from{
+                
+            }
+            to{
+                transform: translateY(71vh) translateX(0);
+                
+            }
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+        <section class="ball"></section>
+   </div> 
+</body>
+</html>
