@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css object and filters</title>
+    <style>
+        .container{
+            width:550px;
+            height:455px;
+            background-color: yellowgreen;
+            background-image:url("https://comicbook.com/wp-content/uploads/sites/4/2025/05/one-piece-chopper.jpeg?w=1024");
+            background-position: 50% 50%;
+            
+        }
+        .img1{
+            width:300px;
+            height: 300px;
+            object-fit:cover;
+            object-position:top center;
+        }
+        img{
+           /* filter:blur(2px);*/
+           filter:brightness(80%) opacity(0.7) drop-shadow(10px 5px rgb(97, 93, 93));
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_.jpg"alt="">
+        
+    </div>
+</body>
+</html>
