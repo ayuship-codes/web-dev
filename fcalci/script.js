@@ -1,7 +1,7 @@
 let r = Math.random()
-let a = Number("Enter first number:")
-let b = Number("Enter second number:")
-let c = prompt("Enter operator(+,-,")
+let a = Number(prompt("Enter first number:"))
+let b = Number(prompt("Enter second number:"))
+let c = prompt("Enter operator(+,-,*,/,**):")
 
 let obj={
     "+":"-",
@@ -10,12 +10,16 @@ let obj={
     "/":"**",
     "**":"*"
 }
-
-if(r < 0.1){
-    c = obj[c]
-    alert('Result is ${eval(`${a} ${c} ${b}`)}')
+if (!["+", "-", "*", "/", "**"].includes(c)) {
+    alert("Invalid operator!");
 }
 else{
-    
-    alert('Result is ${eval(`${a} ${c} ${b}`)}')
+    if(r < 0.1){
+        c = obj[c]
+        alert(`Result is ${eval(`${a} ${c} ${b}`)}`)
+    }
+    else{
+        
+        alert(`Result is ${eval(`${a} ${c} ${b}`)}`)
+    }
 }
