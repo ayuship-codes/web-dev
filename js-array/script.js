@@ -1,0 +1,12 @@
+let arr = [1,2,3,4,5]
+console.log(arr)
+console.log(arr.toString())
+console.log(arr.length)
+console.log(arr.pop())
+console.log(arr)
+console.log(arr.push("Z"))
+console.log(arr)
+console.log(arr.shift("A"))
+console.log(arr)
+console.log(arr.unshift("T"))
+console.log(arr)
