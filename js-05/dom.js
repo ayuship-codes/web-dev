@@ -4,12 +4,14 @@ var flag = 0
 
 btn.addEventListener("click",function(){
     if(flag==0){
-        bulb.computedStyleMap.backgroundColor = "yellow"
+        bulb.style.backgroundColor = "yellow"
         console.log("ON")
+        btn.innerText = "OFF"
         flag = 1
     }else{
-        bulb.computedStyleMap.backgroundColor = "black"
+        bulb.style.backgroundColor = "white"
         console.log("OFF")
+        btn.innerText = "ON"
         flag = 0
     }
 })
