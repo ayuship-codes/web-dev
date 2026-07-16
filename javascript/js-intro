@@ -1,0 +1,13 @@
+console.log(typeof []);
+console.log(typeof null);
+console.log(typeof 123n);
+
+function isEmpty( value){
+    console.log(typeof value)
+}
+
+isEmpty(null)
+isEmpty(undefined)
+isEmpty("")
+
+console.log(!!"Sheryians");
